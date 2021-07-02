@@ -21,7 +21,7 @@ body {
   background: var(--Dark-cyan);
   background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg");
   background-repeat: no-repeat,no-repeat;
-  background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+  background-position: right 50vw bottom 30vh, left 40vw top 50vh;
 }
 
 .flex {
@@ -43,8 +43,8 @@ body {
   height: 327px;
   border-radius: 16px;
   overflow: hidden;
-  -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-          box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7);
+          box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7);
 }
 
 .card-header {
