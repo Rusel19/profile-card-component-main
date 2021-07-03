@@ -21,6 +21,10 @@ body{
     background-position: bottom calc(100vh/2.7) right calc(100vw/1.95), top calc(100vh/2) left calc(100vw/2.1);  
 }
 
+a{
+    text-decoration: none;
+}
+
 .flex{
     display: flex;
     justify-content: center;
@@ -91,7 +95,7 @@ body{
             text-align: center;
             margin-top: 2rem;
             margin-bottom: 2rem;
-            h3{
+            h2{
                 font-size: 18px;
                 font-weight: 700;
                 margin-top: 0;
@@ -106,6 +110,7 @@ body{
             }
         }
     }
-
-
 }
+.attribution a:hover{ 
+        color: var(--Dark-grayish-blue);
+        } 

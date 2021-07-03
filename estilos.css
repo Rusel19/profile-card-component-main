@@ -24,6 +24,10 @@ body {
   background-position: bottom calc(100vh/2.7) right calc(100vw/1.95), top calc(100vh/2) left calc(100vw/2.1);
 }
 
+a {
+  text-decoration: none;
+}
+
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -117,7 +121,7 @@ body {
   margin-bottom: 2rem;
 }
 
-.card-footer-social h3 {
+.card-footer-social h2 {
   font-size: 18px;
   font-weight: 700;
   margin-top: 0;
@@ -130,5 +134,9 @@ body {
   margin: 0 0;
   color: var(--Dark-gray);
   font-weight: 400;
+}
+
+.attribution a:hover {
+  color: var(--Dark-grayish-blue);
 }
 /*# sourceMappingURL=estilos.css.map */
